@@ -28,7 +28,7 @@ jobs:
       # Step 4: Delete the previous files in Apache's web directory
       - name: Delete Previous Files
         run: |
-          ssh hashmiirfan.ihq@20.151.233.26 "sudo rm -rf /var/www/html/*"  # Use sudo if necessary
+          ssh hashmiirfan.ihq@hotmail.com@20.151.233.26 "sudo rm -rf /var/www/html/*"  # Use sudo if necessary
 
       # Step 5: Deploy the new files using SCP
       - name: Deploy Files to Server
